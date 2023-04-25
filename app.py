@@ -14,6 +14,9 @@ class TestEncryption(unittest.TestCase):
     def test_inputType(self):
         self.assertIsInstance(self.mymsg, str)
         
+    #Test 3 to check if msgEncrypt function returns something or not
+    def test_checkfunction(self):
+        self.assertIsNotNone(msgEncrypt(self.mymsg))
 
 if __name__ == "__main__":
     unittest.main()
