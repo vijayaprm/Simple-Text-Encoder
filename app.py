@@ -1,5 +1,8 @@
 import unittest
 
+def msgEncrypt(mymsg):
+    return 0
+
 class TestEncryption(unittest.TestCase):
     
     def setUp(self):                            
