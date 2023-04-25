@@ -3,7 +3,7 @@ import unittest
 class TestEncryption(unittest.TestCase):
     
     def setUp(self):                            
-        self.mymsg = 1                      # assigned mymsg to pass the first unit
+        self.mymsg = ""                      # assigned mymsg to pass the first unit
     
     #we will do all the tests here
     #Test 1 checking if value is assignmed to the argument mymsg 
