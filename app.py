@@ -1,12 +1,12 @@
 import unittest
 
 def msgEncrypt(mymsg):
-    return 0
+    return mymsg
 
 class TestEncryption(unittest.TestCase):
     
     def setUp(self):                            
-        self.mymsg = ""                      # assigned mymsg to pass the first unit
+        self.mymsg = "batman"                      # assigned mymsg to pass the first unit
     
     #we will do all the tests here
     #Test 1 checking if value is assignmed to the argument mymsg 
@@ -23,7 +23,7 @@ class TestEncryption(unittest.TestCase):
 
     #Test 4 Checking if encrypted msg is of same length as of encrypted msg or not
     def test_matchLength(self):
-        self.assertEqual(len(mymsg), len(msgEncrypt(mymsg)))
+        self.assertEqual(len(self.mymsg), len(msgEncrypt(self.mymsg)))
 
 if __name__ == "__main__":
     unittest.main()
