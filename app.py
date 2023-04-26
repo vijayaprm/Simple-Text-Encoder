@@ -1,7 +1,9 @@
 import unittest
 
 def msgEncrypt(mymsg):
-    return mymsg
+    encryptedmsg = "".join([str(i) for i, char in enumerate(mymsg)])
+    print(encryptedmsg)
+    return encryptedmsg
 
 class TestEncryption(unittest.TestCase):
     
