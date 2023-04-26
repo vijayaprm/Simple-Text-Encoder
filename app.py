@@ -25,5 +25,9 @@ class TestEncryption(unittest.TestCase):
     def test_matchLength(self):
         self.assertEqual(len(self.mymsg), len(msgEncrypt(self.mymsg)))
 
+    #Test 5 check if input message and encrypted message is same or not
+    def test_matchIO(self):
+        self.assertNotIn(self.mymsg, msgEncrypt(self.mymsg))
+
 if __name__ == "__main__":
     unittest.main()
