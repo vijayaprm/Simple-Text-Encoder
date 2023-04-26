@@ -1,8 +1,9 @@
 import unittest
+import string
 
 def msgEncrypt(mymsg):
     encryptedmsg = "".join([str(i) for i, char in enumerate(mymsg)])
-    print(encryptedmsg)
+    #print(encryptedmsg)
     return encryptedmsg
 
 class TestEncryption(unittest.TestCase):
@@ -30,6 +31,13 @@ class TestEncryption(unittest.TestCase):
     #Test 5 check if input message and encrypted message is same or not
     def test_matchIO(self):
         self.assertNotIn(self.mymsg, msgEncrypt(self.mymsg))
+
+    #Test 6 Checking if encrypted string actually shifts the characters by one or not
+    def test_checkshift(self):
+        check = string.ascii_letters + string.punctuation + string.digits + " "
+        encryptedmsg = "".join([check[check.find(char)+1] for i,char in enumerate(self.mymsg)])
+        print(encryptedmsg)
+        self.assertEqual(encryptedmsg, msgEncrypt(self.mymsg))
 
 if __name__ == "__main__":
     unittest.main()
