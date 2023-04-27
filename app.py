@@ -2,7 +2,8 @@ import unittest
 import string
 
 def msgEncrypt(mymsg):
-    encryptedmsg = "".join([str(i) for i, char in enumerate(mymsg)])
+    check = string.ascii_letters + string.punctuation + string.digits + " "
+    encryptedmsg = "".join([check[check.find(char)+1] for i,char in enumerate(mymsg)])
     #print(encryptedmsg)
     return encryptedmsg
 
