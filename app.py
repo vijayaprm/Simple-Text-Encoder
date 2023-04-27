@@ -10,7 +10,7 @@ def msgEncrypt(mymsg):
 class TestEncryption(unittest.TestCase):
     
     def setUp(self):                            
-        self.mymsg = "batman"                      # assigned mymsg to pass the first unit
+        self.mymsg = "Hello batman"                      # assigned mymsg to pass the first unit
     
     #we will do all the tests here
     #Test 1 checking if value is assignmed to the argument mymsg 
