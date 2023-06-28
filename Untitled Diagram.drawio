@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2023-06-28T11:04:17.110Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="iyhiYAd-RPDf_BJk7Ll-" version="21.5.1" type="github">
+  <diagram name="Page-1" id="8kLWL6pquji-cg31P_eP">
+    <mxGraphModel dx="1335" dy="718" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-3" value="Fields: Editors,emails" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="690" y="60" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-4" value="Fields:&lt;br&gt;intially:file_id,foldername,filename,subfolder_id&lt;br&gt;&lt;br&gt;&lt;br&gt;finally:file_id,foldername,filename,subfolder_id,editor" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="225" y="585" width="360" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-5" value="SELECTED IMAGES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GxiIhAUhBlhjavs8s8DP-5" target="GxiIhAUhBlhjavs8s8DP-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <mxPoint x="340" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-7" value="SCRIPT TO&amp;nbsp; MAKE DB WITH FIELDS : file_id,foldername,filename,subfolder_id" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="355" width="275" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GxiIhAUhBlhjavs8s8DP-7" target="GxiIhAUhBlhjavs8s8DP-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="320" as="sourcePoint" />
+            <mxPoint x="765" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-11" value="an app to select the editors for each images and save" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="302.5" width="210" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.464;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GxiIhAUhBlhjavs8s8DP-7" target="GxiIhAUhBlhjavs8s8DP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="395" as="sourcePoint" />
+            <mxPoint x="260" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GxiIhAUhBlhjavs8s8DP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="705" y="95" as="sourcePoint" />
+            <mxPoint x="810" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-15" value="getting editors" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="208" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GxiIhAUhBlhjavs8s8DP-11" target="GxiIhAUhBlhjavs8s8DP-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="575" as="sourcePoint" />
+            <mxPoint x="817.4099999999999" y="887.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-18" value="&lt;p style=&quot;line-height: 110%;&quot;&gt;onsave()&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="508" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.995;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GxiIhAUhBlhjavs8s8DP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="683" as="sourcePoint" />
+            <mxPoint x="635" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-21" value="add ediotrs field" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="643" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.794;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GxiIhAUhBlhjavs8s8DP-4" target="GxiIhAUhBlhjavs8s8DP-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="965" as="sourcePoint" />
+            <mxPoint x="712.3499999999999" y="909.7349999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-24" value="running script to create directory for the assigned editors on their name" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="885" width="345" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="GxiIhAUhBlhjavs8s8DP-24" target="GxiIhAUhBlhjavs8s8DP-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="965" as="sourcePoint" />
+            <mxPoint x="906" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-26" value="giving permisiions to respective editor directory and notifying them&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="508" width="375" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="GxiIhAUhBlhjavs8s8DP-3" target="GxiIhAUhBlhjavs8s8DP-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="380" as="sourcePoint" />
+            <mxPoint x="980" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-30" value="fetching ediots email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="272.5" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-34" value="folder id of google drive" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="208" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-35" value="creating the data base" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="478" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GxiIhAUhBlhjavs8s8DP-36" value="fetching data&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="523" y="838" width="105" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
